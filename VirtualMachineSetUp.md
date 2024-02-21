@@ -93,7 +93,7 @@ It can be assumed, however, that they would not offer free or easy to access dis
 
 Once you have all the above, proceed with the following:
 
-- Install and set up your VM as per the vendor guides
+- Install and set up your VM as per the vendor guides. Make sure you **correctly allocate resources**, google how to do this if necessary. 
 - Start up VM (There will usually be a **Start** button on the hypervisor) and go through setup and install of the OS
 - Go through all the settings on your VM and personalise as if you were using a normal OS
 - Install any tools that you need
