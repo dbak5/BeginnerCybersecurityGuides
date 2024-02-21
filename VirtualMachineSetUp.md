@@ -32,8 +32,8 @@ If you are participating in a capture the flag event or competition where you ar
 - **Complexity**: May not be an easy to understand concept for beginners, and set up does require some knowledge of computer hardware and functionality
 - **Risks**: Caution is still advised because flaws can exist:
 
-  - https://www.crowdstrike.com/blog/hypervisor-jackpotting-lack-of-antivirus-support-opens-the-door-to-adversaries/
-  - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-20867
+  - [Hypervisor Jackpotting, Part 3: Lack of Antivirus Support Opens the Door to Adversary Attacks](https://www.crowdstrike.com/blog/hypervisor-jackpotting-lack-of-antivirus-support-opens-the-door-to-adversaries/)
+  - [A fully compromised ESXi host can force VMware Tools to fail to authenticate host-to-guest operations](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-20867)
 
 ## What do I need to create a VM?
 
@@ -63,16 +63,14 @@ There are other ways to set up and access a VM, but I will not go into them here
 
 Some useful resources:
 
-- Transferring Files to and from Virtual Machines: https://carleton.ca/scs/tech-support/virtual-machines/transferring-files-to-and-from-virtual-machines/
-- VirtualBox Virtualization Error: https://carleton.ca/scs/2019/virtualbox-virtualization-error-intel-vt-d-vt-x-or-amd-v/
+- [Transferring Files to and from Virtual Machines](https://carleton.ca/scs/tech-support/virtual-machines/transferring-files-to-and-from-virtual-machines/)
+- [VirtualBox Virtualization Error](https://carleton.ca/scs/2019/virtualbox-virtualization-error-intel-vt-d-vt-x-or-amd-v/)
 
 ### Disk image
 
-The disk image will contain the OS for the VM and will usually come in an `.iso` format.
+The disk image will contain the OS for the VM and will usually come in an `.iso` format and can be quite large so may take a while to download.
 
-Therefore, you need to consider which OS you want/need to use and this will depend on what you are doing.
-
-You can find these by simply googling them (e.g. `kali linux iso` or `windows 10 iso`) but ensure that you are downloading them from a **reliable source** (i.e. official vendor pages).
+Therefore, consider which OS you want/need to use. You can find these by simply googling them (e.g. `kali linux iso` or `windows 10 iso`) but ensure that you are downloading them from a **reliable source** (i.e. official vendor pages).
 
 #### Windows
 
