@@ -85,7 +85,7 @@ There are various versions of Linux, which I won't go into, but Kali Purple Linu
 #### MacOS
 
 I haven't yet used MacOS for a VM and I'm not sure of its considerations as yet. \
-It can be assumed, however, that they would not offer free or easy to access disk images, given their aggressive protection of intellectual property.
+[Here's a guide](https://developer.apple.com/documentation/virtualization/installing_macos_on_a_virtual_machine).
 
 ## What now?
 
@@ -93,7 +93,7 @@ It can be assumed, however, that they would not offer free or easy to access dis
 
 Once you have all the above, proceed with the following:
 
-- Install and set up your VM as per the vendor guides. Make sure you **correctly allocate resources**, google how to do this if necessary. 
+- Install and set up your VM as per the vendor guides. Make sure you **correctly allocate resources**, google how to do this if necessary.
 - Start up VM (There will usually be a **Start** button on the hypervisor) and go through setup and install of the OS
 - Go through all the settings on your VM and personalise as if you were using a normal OS
 - Install any tools that you need
