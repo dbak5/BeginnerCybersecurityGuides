@@ -21,11 +21,12 @@ This is a list of things that you can look for when carrying our forensics on a 
     - FTK Imager or Autopsy
     - RegRipper
     - Get-ZimmermanTools
+    - [Boot or logon autostart execution](https://attack.mitre.org/techniques/T1547/001/)
 - Anti-forensics
   - Tools:
     - FTK Imager or Autopsy
     - Get-ZimmermanTools
-  - Review NTFS/MFT - timestomping
+  - Review NTFS/MFT - [timestomping](https://attack.mitre.org/techniques/T1070/006/)
 - Document evidence and findings in tracker
 - Construct timeline
 - Verify evidence
