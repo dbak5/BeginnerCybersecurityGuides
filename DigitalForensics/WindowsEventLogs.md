@@ -102,13 +102,15 @@ Windows event logs are saved in <em>.evtx</em> format. To make them easier to pa
 
 ## Analyse critical events
 
-You should review event logs for the following kinds of activities:
+You should review event logs (either in TimelineExplorer or Excel) for the following kinds of activities:
 
 - User logon/logoff and unusual activity
 - Computer logon/logoff/restart
 - Access to objects, files and folders
 - Remote access - remote desktop protocol (RDP)
 - Unusual script files and usage (bash or powershell)
+
+You can do this by looking at event IDs. You should also review the metdata associated with these events, such as timestamps, user names, computer names, and administrator activities, as these may help you to determine who/what/when which may help with further analysis activities.
 
 More information on how to look for critical events with event IDs:
 
