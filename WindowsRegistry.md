@@ -1,5 +1,7 @@
 # **_Work in Progress_**
 
+# Windows Registry Analysis
+
 From registry files contained in: \
 %SystemRoot%\System32\Config\
 
