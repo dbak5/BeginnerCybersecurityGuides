@@ -28,30 +28,55 @@ Hives will also contain a number of sub folders, and these are called **keys**. 
 
 ### Location of Hives
 
-This may depend on the version of Windows that is on the disk image.
+This may depend on the version of Windows that is on the disk image. You may want to google your particular OS to check, but many Windows OS files are located at: `Windows\System32\Config`.
 
-- Windows XP, 2000 and 2003 files are located at: `Windows\System32\Config folder`
-- Windows 10 files are located at: `%SystemRoot%\System32\Config\`
-
-You may want to google your particular OS if not listed above.
-
-Also note that the `HKEY_CURRENT_USER` hive is stored separately to the others, and is located at: `%SystemRoot%\Profiles\Username`
-
-The registry files we will examine are located in the `HKEY_LOCAL_MACHINE` hive. These are:
+The registry files we will examine from the `HKEY_LOCAL_MACHINE` hive:
 
 - SAM
 - SECURITY
 - SOFTWARE
 - SYSTEM
 
+We will also look at the following `HKEY_CURRENT_USER` files, which are located separately to the other registry files:
+
+- Ntuser.dat located in `Users\[USERNAME]`
+- Usrclass.dat located in `Users\[USERNAME]\AppData\Local\Microsoft\Windows`
+
+This key reflects changes that happen while Windows is running and the user is logged in. Important information it contains includes user activity such as installs / executed applications, files / folders accessed and much more.
+
 There are also other files which we will not look at in this exercise, but may be worth checking, and these are:
 
 - Customised Event Log: `Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Eventlog`. This provides default and customized event log settings. Analyse to determine custom location of event logs, DLLs and executables.
 - Additional Logging Details: `HKLM\SYSTEM\CurrentControlSet\Services\EventLog`
 
-## Process
+## Tools
 
-## Some Registry Key Locations
+- FTK Imager
+
+## Access Data using FTK Imager
+
+### FTK Imager
+
+1. Open FTK Imager and add evidence item
+2. In the left hand side panel, browse the tree to get to the registry files:
+
+- `Users\[USERNAME]`
+  - Ntuser.dat
+- `Users\[USERNAME]\AppData\Local\Microsoft\Windows`
+  - Usrclass.dat
+- `Windows\System32\Config`
+  - SAM
+  - SECURITY
+  - SOFTWARE
+  - SYSTEM
+
+3. Right click on the files and click to export and save
+
+### Powershell, RegRipper
+
+## Registry Key Locations
+
+Some registry keys and locations:
 
 - Network data - System Registry File -> Root -> Services -> Tcpip -> Parameters
 - Computer name - System Registry File -> Root -> ControlSet001 -> Control -> ComputerName -> ComputerName
