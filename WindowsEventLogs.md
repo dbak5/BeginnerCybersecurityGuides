@@ -2,13 +2,21 @@
 
 # Beginner Windows Event Logs Analysis
 
-Analysis of event logs from Windows disk image.
+This is a guide for parsing and analysing **event logs** using a Windows disk image.
+
+From event logs, we may see some activities carried out by a threat actor (as long as they have not been deleted). This may include [privilege escalation](https://attack.mitre.org/tactics/TA0004/), [lateral movement](https://attack.mitre.org/tactics/TA0008/), [data exfiltration](https://attack.mitre.org/tactics/TA0010/) and many more.
+
+During your analysis, you should be mindful of [anti-forensic techniques](https://github.com/dbak5/BeginnerCybersecurityGuides/blob/main/AntiForensicTechniques.md) that may be used by a threat actor to cover up their tracks.
+
+In addition, make sure to verify all evidence and do not trust outputs immediately; data may have been altered or corrupted so it is always good to get validation from another source.
 
 It is recommended to carry out this process on a virtual machine.
 
-Windows event logs are saved in <em>.evtx</em> format.
+## Evtx Files
 
-## EVTX Structures
+Windows event logs are saved in <em>.evtx</em> format. To make them easier to parse, we can transfer them into a csv file which can be read by a program or opened in Excel.
+
+### Evtx Structure
 
 - **Application** - information logged by system applications.
 - **Security** - security events according to the auditing policy of the Windows operating system - including login activities (success and failure), elevated priviledges.
@@ -16,7 +24,7 @@ Windows event logs are saved in <em>.evtx</em> format.
 - **System** - Windows OS generated messages.
 - **Forwarded Events** - events which are forwarded by other computers.
 
-## EVTX Categories/Levels
+### Evtx Categories/Levels
 
 - Information
 - Warning
@@ -30,7 +38,7 @@ Windows event logs are saved in <em>.evtx</em> format.
 - Get-Zimmerman Tools - EZTools EvtxCmd.exe
 - Get-Zimmerman Tools - TimelineExplorer.exe
 
-## Collect and Prepare EVTX using FTK Imager
+## Collect and Prepare Evtx using FTK Imager
 
 ### FTK Imager
 
@@ -92,7 +100,7 @@ Windows event logs are saved in <em>.evtx</em> format.
 
 3. There should now be event logs in the Data Artifacts tree in the left hand panel
 
-## Critical events
+## Analyse critical events
 
 You should review event logs for the following kinds of activities:
 
@@ -112,3 +120,11 @@ More information on how to look for critical events with event IDs:
 - [Password changes and privilege escalation](https://alparslanakyildiz.medium.com/windows-event-ids-for-incident-response-cases-f3a069b8309f)
 - [More on pass-the-hash](https://www.beyondtrust.com/resources/glossary/pass-the-hash-pth-attack)
 - [Security log event IDs](https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/default.aspx?i=j)
+
+## Timeline and evidence
+
+Create a timeline of the events you have uncovered and record all evidence found, including screenshots.
+
+Crowdstrike have an Incident Response Tracker Template which you can download [here](https://www.crowdstrike.com/blog/crowdstrike-releases-digital-forensics-and-incident-response-tracker/).
+
+It is also good to align events with the MITRE ATT&CK framework. [Here](https://www.socinvestigation.com/mapping-mitre-attck-with-window-event-log-ids/) is an example.
