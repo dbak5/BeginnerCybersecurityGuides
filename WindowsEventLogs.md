@@ -92,28 +92,17 @@ Windows event logs are saved in <em>.evtx</em> format.
 
 3. There should now be event logs in the Data Artifacts tree in the left hand panel
 
-## Other files to look at: Registry Keys
-
-- Customised Event Log
-
-  `Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Eventlog`
-
-  This provides default and customized event log settings. Analyse to determine custom location of event logs, DLLs and executables.
-
-- Additional Logging Details
-
-  `HKLM\SYSTEM\CurrentControlSet\Services\EventLog`
-
 ## Critical events
 
-- User logon/logoff
+You should review event logs for the following kinds of activities:
+
+- User logon/logoff and unusual activity
 - Computer logon/logoff/restart
 - Access to objects, files and folders
-- System time is modified
-- Audit logs are cleared
-- Remote access
+- Remote access - remote desktop protocol (RDP)
+- Unusual script files and usage (bash or powershell)
 
-More information on critical events with event IDs
+More information on how to look for critical events with event IDs:
 
 - [Common events for investigation](https://www.socinvestigation.com/most-common-windows-event-ids-to-hunt-mind-map/)
 - [Common and useful events](https://ss64.com/ps/syntax-eventids.html)
@@ -121,4 +110,5 @@ More information on critical events with event IDs
 - [RDP events](https://www.socinvestigation.com/windows-rdp-event-ids-cheatsheet/)
 - [Account access and management](https://medium.com/@rajeevranjancom/windows-event-log-analysis-incident-response-guide-739af79b518b)
 - [Password changes and privilege escalation](https://alparslanakyildiz.medium.com/windows-event-ids-for-incident-response-cases-f3a069b8309f)
+- [More on pass-the-hash](https://www.beyondtrust.com/resources/glossary/pass-the-hash-pth-attack)
 - [Security log event IDs](https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/default.aspx?i=j)

@@ -12,6 +12,18 @@ Registry files:
 - Software – HKEY_LOCAL_MACHINE\SOFTWARE
 - System – HKEY_LOCAL_MACHINE\SYSTEM
 
+## Other files to look at: Registry Keys
+
+- Customised Event Log
+
+  `Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Eventlog`
+
+  This provides default and customized event log settings. Analyse to determine custom location of event logs, DLLs and executables.
+
+- Additional Logging Details
+
+  `HKLM\SYSTEM\CurrentControlSet\Services\EventLog`
+
 ## Network data
 
 System Registry File -> Root -> Services -> Tcpip -> Parameters
