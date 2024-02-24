@@ -6,7 +6,7 @@ This is a guide for parsing and analysing **event logs** using a Windows disk im
 
 From event logs, we may see some activities carried out by a threat actor (as long as they have not been deleted). This may include [privilege escalation](https://attack.mitre.org/tactics/TA0004/), [lateral movement](https://attack.mitre.org/tactics/TA0008/), [data exfiltration](https://attack.mitre.org/tactics/TA0010/) and many more.
 
-During your analysis, you should be mindful of [anti-forensic techniques](https://github.com/dbak5/BeginnerCybersecurityGuides/blob/main/AntiForensicTechniques.md) that may be used by a threat actor to cover up their tracks. Some of these may be found in the event logs!
+During your analysis, you should be mindful of [anti-forensic techniques](https://github.com/dbak5/BeginnerCybersecurityGuides/blob/main/DigitalForensics/AntiForensicTechniques.md) that may be used by a threat actor to cover up their tracks. Some of these may be found in the event logs!
 
 In addition, make sure to verify all evidence and do not trust outputs immediately; data may have been altered or corrupted so it is always good to get validation from another source.
 

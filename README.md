@@ -4,5 +4,5 @@ This serves a resource for beginners who want to practice and learn some cyberse
 
 Contents:
 
-1. [Setting up Virtual Machines](https://github.com/dbak5/BeginnerCybersecurityGuides/blob/main/VirtualMachineSetUp.md)
-2. [Windows Event Logs Analysis](https://github.com/dbak5/BeginnerCybersecurityGuides/blob/main/WindowsEventLogs.md)
+1. [Setting up Virtual Machines](https://github.com/dbak5/BeginnerCybersecurityGuides/blob/main/DigitalForensics/VirtualMachineSetUp.md)
+2. [Windows Event Logs Analysis](https://github.com/dbak5/BeginnerCybersecurityGuides/blob/main/DigitalForensics/WindowsEventLogs.md)

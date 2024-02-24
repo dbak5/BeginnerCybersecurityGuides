@@ -6,7 +6,7 @@ Analysis of registry files using a Windows disk image.
 
 It is recommended to carry out this process on a virtual machine.
 
-During your analysis, you should be mindful of [anti-forensic techniques](https://github.com/dbak5/BeginnerCybersecurityGuides/blob/main/AntiForensicTechniques.md) that may be used by a threat actor to cover up their tracks.
+During your analysis, you should be mindful of [anti-forensic techniques](https://github.com/dbak5/BeginnerCybersecurityGuides/blob/main/DigitalForensics/AntiForensicTechniques.md) that may be used by a threat actor to cover up their tracks.
 
 ## Process
 

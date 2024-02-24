@@ -6,8 +6,8 @@
 
 This is a list of things that you can look for when carrying our forensics on a potentially compromised image.
 
-1. Set up VM (if applicable). Guide can be found [here](https://github.com/dbak5/BeginnerCybersecurityGuides/blob/main/VirtualMachineSetUp.md).
-2. Check and set up timezones appropriately. More information[here](https://github.com/dbak5/BeginnerCybersecurityGuides/blob/main/TimeZones.md).
+1. Set up VM (if applicable). Guide can be found [here](https://github.com/dbak5/BeginnerCybersecurityGuides/blob/main/DigitalForensics/VirtualMachineSetUp.md).
+2. Check and set up timezones appropriately. More information[here](https://github.com/dbak5/BeginnerCybersecurityGuides/blob/main/DigitalForensics/TimeZones.md).
 
 **To add?**
 
