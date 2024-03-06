@@ -23,13 +23,13 @@ This is a list of things that you can look for when carrying our forensics on a 
   - Tools:
     - FTK Imager
     - RegRipper
-    - Get-ZimmermanTools
+    - Get-ZimmermanTools **_you will need .NET and Windows to use these tools_**
   - [Boot or logon autostart execution](https://attack.mitre.org/techniques/T1547/001/)
   - UserAssist
 - Anti-forensics
   - Tools:
     - FTK Imager or Autopsy
-    - Get-ZimmermanTools
+    - Get-ZimmermanTools **_you will need .NET and Windows to use these tools_**
   - Review NTFS/MFT - [timestomping](https://attack.mitre.org/techniques/T1070/006/)
 - Document evidence and findings in tracker
 - Construct timeline
