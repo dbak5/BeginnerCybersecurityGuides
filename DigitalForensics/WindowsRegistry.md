@@ -1,4 +1,4 @@
-# **_Work in Progress_**
+<span style="color:red; font-size:32px">Work in Progress</span>
 
 # Beginner Windows Registry Analysis
 
@@ -84,6 +84,12 @@ Some registry keys and locations:
   Value is in bytes, need to convert to MB or GB
 - Windows OS - Software Registry File -> Root -> Microsoft -> Windows NT -> CurrentVersion -> ProductName
 
+## Things to look for
+
+- User search history
+- Recent activity such as applications and the locations
+-
+
 ## Timeline and evidence
 
 Create a timeline of the events you have uncovered and record all evidence found, including screenshots.
@@ -91,3 +97,10 @@ Create a timeline of the events you have uncovered and record all evidence found
 Crowdstrike have an Incident Response Tracker Template which you can download [here](https://www.crowdstrike.com/blog/crowdstrike-releases-digital-forensics-and-incident-response-tracker/).
 
 It is also good to align events with the MITRE ATT&CK framework. [Here](https://www.socinvestigation.com/mapping-mitre-attck-with-window-event-log-ids/) is an example.
+
+<!--reources
+https://www.hackers-arise.com/post/2016/10/21/digital-forensics-part-5-analyzing-the-windows-registry-for-evidence
+https://www.linkedin.com/pulse/windows-registry-its-forensic-significance-part-3-akshay-tiwari
+https://www.mandiant.com/resources/blog/the-missing-lnk-correlating-user-search-lnk-files
+
+-->

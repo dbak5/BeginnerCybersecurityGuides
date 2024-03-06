@@ -1,3 +1,5 @@
+<span style="color:red; font-size:32px">Work in Progress</span>
+
 # Beginner's guide to setting up a Virtual Machine (VM)
 
 ## What are VMs?

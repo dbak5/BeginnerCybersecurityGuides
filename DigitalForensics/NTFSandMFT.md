@@ -1,4 +1,4 @@
-# **_Work in Progress_**
+<span style="color:red; font-size:32px">Work in Progress</span>
 
 # Beginner NTFS and MFT Analysis
 
@@ -10,7 +10,8 @@ During your analysis, you should be mindful of [anti-forensic techniques](https:
 
 ## Process
 
-https://learn.microsoft.com/en-us/windows/win32/devnotes/attribute-list-entry
+<!--reources
+https://learn.microsoft.com/en-us/windows/win32/devnotes/attribute-list-entry-->
 
 ## Timeline and evidence
 

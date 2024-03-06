@@ -1,3 +1,5 @@
+<span style="color:red; font-size:32px">Work in Progress</span>
+
 # Anti-Forensic Techniques
 
 Definition can be found [here](https://cisomag.com/6-anti-forensic-techniques-that-every-digital-forensic-investigator-dreads/). It can include:
