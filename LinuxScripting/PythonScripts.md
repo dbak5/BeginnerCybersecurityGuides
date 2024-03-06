@@ -39,6 +39,8 @@ Note that the extension `.py` denotes that this is a Python script. Using anothe
 
 The nano editor should open up a new file. You may also use other editors such as vim, but keep in mind the following instructions may be specific to nano.
 
+![alt text](./resources/image-10.png)
+
 ## 4. Shebang
 
 A [Shebang](<https://en.wikipedia.org/wiki/Shebang_(Unix)#:~:text=In%20computing%2C%20a%20shebang%20is,the%20beginning%20of%20a%20script>) tells the computer which interpreter to use when running the script and this allows it to **_interpret_** the code correctly.
@@ -59,7 +61,7 @@ The Shebang should go at the top of your file. There are two options here:
 
 For this exercise, we will simply output the text "Hello world!" using the following:
 
-    echo "Hello world!"
+    print("Hello world!")
 
 ## 5. Add comments
 
@@ -67,15 +69,15 @@ It is often helpful to add comments so that you can remember what the script is 
 
 You can add comments using # and any text after it will not execute. For example:
 
-    # Script to print "Hello world!"
+    # Script to output "Hello world!"
 
 **_The final script should look like this:_**
 
-    #!/bin/python
+    #!/usr/bin/python3
 
-    # Script to print "Hello world!"
+    # Script to output "Hello world!"
 
-    echo "Hello world!"
+    print("Hello world!")
 
 ## 6. Save and close the file
 
@@ -83,7 +85,7 @@ Nano will save to the directory you are in unless you specify a different locati
 
 <kbd><span style="color:orange">Ctrl</span></kbd>+<kbd><span style="color:orange">O</span></kbd> will open the save prompt, it will look something like this:
 
-![alt text](image.png)
+![alt text](./resources/image-1.png)
 
 You will notice at the bottom it says:
 
@@ -93,11 +95,15 @@ If you want to save to current directory, simply hit the <kbd><span style="color
 
 If you want to save to a specific directory, type in the filepath before the filename as follows:
 
-    File Name to Write: /home/username/Documents/python_script.py
+    File Name to Write: /home/[USERNAME]/Documents/python_script.py
 
-Hit the <kbd><span style="color:orange">Enter</span></kbd> key and it will ask you if you want to save the file under a different name. Type <kbd><span style="color:orange">Y</span></kbd> to agree and hit <kbd><span style="color:orange">Enter</span></kbd> again.
+![alt text](./resources/image-2.png)
 
-To exit the file, use <kbd><span style="color:orange">Ctrl</span></kbd>+<kbd><span style="color:orange">K</span></kbd>.
+Hit the <kbd><span style="color:orange">Enter</span></kbd> key and it will ask you if you want to save the file under a different name. Type <kbd><span style="color:orange">Y</span></kbd> to agree and you file will be saved.
+
+![alt text](./resources/image-3.png)
+
+To exit the file, use <kbd><span style="color:orange">Ctrl</span></kbd>+<kbd><span style="color:orange">X</span></kbd>.
 
 ## 7. Make the file executable
 
@@ -111,6 +117,8 @@ If you are in the same directory, there is no need to include the filepath:
 
     chmod +x python_script.py
 
+![alt text](./resources/image-11.png)
+
 ## 8. Run the script
 
 Now you can run the script using the following (if not in the same directory):
@@ -121,10 +129,14 @@ Again, if you are already in the same directory, you can forego the filepath, bu
 
     ./python_script.py
 
+You should now see the output in the terminal:
+
+![alt text](./resources/image-12.png)
+
 # You have now created and run your first python script! What now?
 
-Obviously this is a very beginner script and the actual code itself is very simple. In order to write more complex scripts, you will need to start learning to code, which is a skill that takes time and practice.
+Obviously this is a very beginner script and the actual code itself is very simple. In order to write more complex scripts, you will need to start learning to code, which is a skill that takes time and practice (and loads of patience).
 
 But, Python is a great language to learn! It's used across many industries and can be used across many platforms.
 
-If you want to learn more, try [TryHackMe Python Basics](https://tryhackme.com/r/room/pythonbasics).
+If you want to learn more, try [TryHackMe Python Basics](https://tryhackme.com/r/room/pythonbasics) and check out the [Python documentation](https://docs.python.org/3/).
