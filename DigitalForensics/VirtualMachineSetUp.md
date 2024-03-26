@@ -82,7 +82,7 @@ They may offer a 30 day trial, but after that, you may have to start another VM.
 #### Linux
 
 Many cybersecurity professionals use Linux, and it is open source, which means that it is free to download and use (yay!) \
-There are various versions of Linux, which I won't go into, but Kali Purple Linux is already set up with many cybersecurity tools.
+There are various versions of Linux, which I won't go into, but Kali Purple Linux is already set up with many cybersecurity tools. You do have to install them. Here's a [guide](https://sysadmin102.com/2023/05/installing-kali-linux-purple-tools-and-theme/).
 
 #### MacOS
 
