@@ -116,6 +116,7 @@ More information on how to look for critical events with event IDs:
 
 - [Common events for investigation](https://www.socinvestigation.com/most-common-windows-event-ids-to-hunt-mind-map/)
 - [Common and useful events](https://ss64.com/ps/syntax-eventids.html)
+- [SIDs](<https://system32.eventsentry.com/codes/field/Well-known%20Security%20Identifiers%20(SIDs)>)
 - [Top 5 Windows Events for Incident Response](https://www.linkedin.com/pulse/top-5-windows-events-incident-response-invictus-incident-response/)
 - [RDP events](https://www.socinvestigation.com/windows-rdp-event-ids-cheatsheet/)
 - [Account access and management](https://medium.com/@rajeevranjancom/windows-event-log-analysis-incident-response-guide-739af79b518b)
