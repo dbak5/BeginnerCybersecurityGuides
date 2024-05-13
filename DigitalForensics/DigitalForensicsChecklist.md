@@ -7,7 +7,8 @@
 This is a list of things that you can look for when carrying our forensics on a potentially compromised image.
 
 1. Set up VM (if applicable). Guide can be found [here](https://github.com/dbak5/BeginnerCybersecurityGuides/blob/main/DigitalForensics/VirtualMachineSetUp.md).
-2. Check and set up timezones appropriately. More information[here](https://github.com/dbak5/BeginnerCybersecurityGuides/blob/main/DigitalForensics/TimeZones.md).
+2. [VM Settings Recommendation](https://learn.microsoft.com/en-us/windows-server/remote/remote-desktop-services/virtual-machine-recs#single-session-recommendations)
+3. Check and set up timezones appropriately. More information[here](https://github.com/dbak5/BeginnerCybersecurityGuides/blob/main/DigitalForensics/TimeZones.md).
 
 - Event logs (for Windows)
   - look for potential data exflitration
