@@ -36,9 +36,10 @@ This is a list of things that you can look for when carrying our forensics on a 
 - Construct timeline
 - Verify evidence
 
-## References
+## Resources
 
 - [Digital Forensics Checklist](https://hackforlab.com/digital-forensic-checklist/)
 - [SANS Log Management Cheatsheet](https://www.sans.org/brochure/course/log-management-in-depth/6?msc=Cheat+Sheet+Blog)
 - [SANS Cheatsheet for Server Administrators](https://zeltser.com/media/docs/security-incident-survey-cheat-sheet.pdf?msc=Cheat+Sheet+Blog)
 - [Volatility Cheatsheet](https://book.hacktricks.xyz/generic-methodologies-and-resources/basic-forensic-methodology/memory-dump-analysis/volatility-cheatsheet)
+- https://store.thedfirreport.com/collections/dfir-labs
